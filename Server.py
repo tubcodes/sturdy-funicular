@@ -8,10 +8,10 @@ app = Flask(__name__)
 
 # === MySQL connection ===
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="password123",
-    database="instagram_data"
+    host="",
+    user="",
+    password="",
+    database=""
 )
 cursor = db.cursor()
 
@@ -59,9 +59,9 @@ def main():
     time.sleep(3)
 
     local_port = 5000
-    lt_subdomain = "insta947x-donkey-haxx-flipflop-b4nanalord-neverguess987"
+    lt_subdomain = ""
 
-    lt_executable = r"C:\Users\ACER\AppData\Roaming\npm\lt.cmd"  # Or just "lt" if in PATH
+    lt_executable = r""  # Or just "lt" if in PATH
 
     print(f"[*] Starting LocalTunnel on port {local_port} with subdomain '{lt_subdomain}'...")
 
