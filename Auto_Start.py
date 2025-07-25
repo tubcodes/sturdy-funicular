@@ -4,13 +4,13 @@ import os
 import pyautogui
 
 
-mysql_container = "mysql-server"
-mysql_root_password = "password123"
-flask_script_path = r"D:\Server\s.py"
+mysql_container = ""
+mysql_root_password = ""
+flask_script_path = r""
 
 def start_docker_desktop():
     print("[*] Starting Docker Desktop...")
-    docker_path = r"C:\Program Files\Docker\Docker\Docker Desktop.exe"
+    docker_path = r""
     if os.path.exists(docker_path):
         subprocess.Popen([docker_path], shell=True)
         print("[*] Waiting about 10 secs for the docker to be ready")
