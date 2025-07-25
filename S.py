@@ -10,8 +10,8 @@ app = Flask(__name__)
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="password123",
-    database="instagram_data"
+    password="",
+    database=""
 )
 cursor = db.cursor()
 
@@ -59,7 +59,7 @@ def main():
     time.sleep(3)
 
     local_port = 5000
-    lt_subdomain = "insta947x-donkey-haxx-flipflop-b4nanalord-neverguess987"
+    lt_subdomain = ""
 
     lt_executable = r"C:\Users\ACER\AppData\Roaming\npm\lt.cmd"  # Or just "lt" if in PATH
 
